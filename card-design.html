@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <title>DISPLAY CARDS LAYOUT</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body background="images/images/library 1.jpg">
+    <div class="header">
+        <a href="index.html" class="logo">READING ROCKETS SEARCH</a>
+    </div>
+    <br>
+
+    <!-- start of search bar -->
+    <div class="container mb-5">
+        <h1 class="text-center">READING ROCKETS ONLINE SEARCH <small style="font-size:12px; padding: 3px;">Google Books</small>
+        </h1>
+        <form id="google-books-search" class="form-group">
+            <div class="input-group">
+                <input class="form-control" type="text" id="search-input" placeholder="Search for...">
+                <div class="input-group-append">
+                    <button class="btn bg-primary text-light" id="search-button">Go</button>
+                </div>
+            </div>
+        </form>
+    </div>
+    <!-- end of search bar -->
+
+    <!-- start results display area -->
+    <div class="container">
+        <div id="result"></div>
+    </div>
+    <!-- end results display area -->
+    <p align="center"><b><a href="index.html">READING ROCKETS LOCAL SEARCH</a>.</b></p>
+
+
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="js/scripts.js"></script>
+</body>
+
+</html>
